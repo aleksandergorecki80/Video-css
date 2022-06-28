@@ -1,0 +1,18 @@
+.wrapper-resopnsive {
+    max-width: 700px;
+}
+
+.video__res {
+    position: relative;
+    padding-bottom: 56.25%;
+    /* 16:9 ratio */
+    height: 0;
+}
+
+.video__res .vid {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
